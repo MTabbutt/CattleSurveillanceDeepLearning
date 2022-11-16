@@ -31,3 +31,11 @@ Looking for /libffi.6.dylib but only have .8. so create symbolic link:
 >>> /opt/anaconda3/envs/keras-CS762-env/bin/pip install keras-tqdm
 >>> conda install -c conda-forge ipywidgets
 >>> conda install -c conda-forge opencv==3.4.2.17
+
+
+# Keras saved model import error
+>>> conda install -c conda-forge h5py==2.10.0
+### This downgraded openCV - MIGHT BE A PROBLEM...
+
+
+
