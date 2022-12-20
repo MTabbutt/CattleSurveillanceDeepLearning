@@ -1,0 +1,57 @@
+These are notes about my conda installations. More package information can be found in the dataset publication: https://zenodo.org/record/3981400#.Y6Ioo7LMKDV
+
+
+
+######## Install Notes for use on shared GPU's RTX2080s ########
+
+>>> conda create -n python365 python=3.6.5 # this pythoin version is CRITICAL
+>>> conda install tensorflow==1.14  ### DON’T SPECIFY CONDA-FORGE channel 
+>>> conda install cudnn=7.6.0=cuda10.0_0 ### Downgraded TF, cudatoolkit a little
+>>> conda install seaborn
+>>> conda install imgaug
+>>> conda install -c conda-forge albumentations==0.4.2
+>>> conda install ipykernel
+>>> conda install notebook
+>>> conda install keras-gpu==2.2.4
+>>> pip install keras-tqdm
+>>> conda install ipywidgets
+>>> pip install sklearn 
+>>> python -m ipykernel install --user --name=python365
+
+
+
+
+######## Local install notes on macbook pro (non M1) ########
+
+>>> conda create -n keras-CS762-env
+>>> conda update -n base conda
+ 
+>>> conda install -c anaconda ipykernel
+>>> python -m ipykernel install --user --name=keras-CS762-env
+ 
+>> conda install pip
+ 
+>>> conda install -c conda-forge tensorflow==1.14.0
+>>> conda install -c conda-forge keras==2.2.4git 
+>>> conda install -c anaconda seaborn
+>>> conda install -c conda-forge opencv==3.4.2.17 - IMPORT ERROR
+>>> conda install -c conda-forge opencv
+ 
+Looking for /libffi.6.dylib but only have .8. so create symbolic link:
+>>> ln -s libffi.8.dylib libffi.6.dylib
+>>> conda install -c conda-forge imgaug
+>>> conda install -c conda-forge albumentations==0.4.2
+ 
+>>> /opt/anaconda3/envs/keras-CS762-env/bin/pip install keras-tqdm
+>>> conda install -c conda-forge ipywidgets
+>>> conda install -c conda-forge opencv==3.4.2.17
+
+# Keras saved model import error
+>>> conda install -c conda-forge h5py==2.10.0
+
+
+
+
+
+
+
