@@ -9,7 +9,7 @@ Please go to the link and clone the repository. In the README, there's a section
 
 In the AP-10k/data/ap10k/data folder, put all the superimposed frames of interest. Then, we need to create our own ap10k-test-split1.json file in the annotatons folder. 
 
-To do this, use the get_annotation_file.ipynb file. In the second cell, replace 'coordinates.csv' with the coordinates file of your coosing. It should have the filename, left, top, width, and height. Running this file will create annotations/ap10k-test-split1.json. 
+To do this, first clone this repository and then use the get_annotation_file.ipynb file. In the second cell, replace 'coordinates.csv' with the coordinates file of your coosing. It should have the filename, left, top, width, and height. Running this file will create annotations/ap10k-test-split1.json. 
 
 ### Getting Predictions
 
@@ -19,5 +19,7 @@ After having an annotation file and the frames in the correct locations, you can
 python tools/test.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/ap10k/hrnet_w48_ap10k_256x256.py hrnet_w48_ap10k_256x256-d95ab412_20211029.pth
 ```
 
+After getting predictions in 'preds.json', open get_prediction_csv.ipynb and run through the notebook. In the coords_full.to_csv command, that is where you output the csv with the coordinates csv and the key point prediction csvs merged into one. This directly feeds into the weak supervision framework.
 
+In Visualization, you can replace p with an image of your choice to visualize the keypoints predicted on the cow.
 
