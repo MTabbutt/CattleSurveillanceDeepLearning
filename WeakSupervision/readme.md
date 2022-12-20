@@ -20,7 +20,8 @@ and now the environment is created to run the weak supervision code.
 
 To run the main pipeline look to `pipeline_cattle.py`. Many functions are defined which run different parts of the paper.
 You must uncomment different parts to run different analysis in the paper. I would recommend contacting Bryce Johnson (email listed below) if you
-are consider running this code. 
+are consider running this code. For reference the two main functions are `weak_supervision_pipeline` which requires as input only the unique identifier 
+of the experiment one is running. 
 
 
 ### Defining a labeling function 
