@@ -8,7 +8,7 @@
 
 
 ## Baseline CNN:
-The baseline CNN codes can be found in the MeganCode directory. These codes will do some preprocessing, and running of the baseline CNN. The code for testing the weak supervision model and creating the confusion matricies can also be found here. 
+The baseline CNN codes can be found in the BaselineCNN directory. These codes will do some preprocessing, and running of the baseline CNN. The code for testing the weak supervision model and creating the confusion matricies can also be found here. 
 
 
 ## Weak Supervision:
