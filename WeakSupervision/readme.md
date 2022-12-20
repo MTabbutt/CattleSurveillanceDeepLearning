@@ -14,7 +14,16 @@ To create the conda environment to re-create the results of the weak supervision
 
 `conda install -c anaconda seaborn` 
 
-and now the environment is created to run the weak supervision code. 
+and now the environment is created to run the weak supervision code.
+
+### Dataset curation 
+
+Make the following directories in this directory and post the following data in them to run the code. 
+
+Test set in /test/ : https://drive.google.com/drive/folders/15eVgKiVeFdhuR91ARb_eiaV0rtrt6fKl?usp=sharing
+Train set in /valid_random_frames_v2_curated_cropped/  : https://drive.google.com/drive/folders/1dJI-upHXQ47Wji4d4XWBIISRomtk1MFn?usp=sharing 
+Unlabeled set in /unlabeled/ : https://drive.google.com/drive/folders/11ZcCVpo9gjVISKYDPMz66ET5IKk5Y7cU?usp=sharing 
+Put this file in unlabeled directory : https://drive.google.com/file/d/1fbdrpMu0nQZaI7Zq_J3D9XLUMMNuc7Ch/view?usp=sharing 
 
 ### Main Pipeline 
 
