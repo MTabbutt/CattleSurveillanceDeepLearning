@@ -1,5 +1,5 @@
 
-# MeganCode:
+# BaselineCNN:
 
 This is the code for some basic pre-processing scripts, running of the CNN, testing the CNN, and the experimental visualizations such as accuracy curves, statistics calculations and confusion matracies. 
 
