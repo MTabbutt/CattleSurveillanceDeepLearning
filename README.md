@@ -13,4 +13,6 @@ The baseline CNN codes can be found in the BaselineCNN directory. These codes wi
 
 ## Weak Supervision:
 
+Found in the weak supervision directory. This code, given all the coordinates of bounding boxes for training, test, and unlabeled data, reproduce the results as shown in paper. 
+
 
