@@ -1,4 +1,4 @@
 # CattleSurveillanceDeepLearning
 
 
-#### Note: The files 0X are downloaded from https://zenodo.org/record/3981400#.Y1mceYLMKDU and ALTERED be Megan to be able to run in her environment. 
+##### Original Paper data can be found and downloaded here along with thier codes: https://zenodo.org/record/3981400#.Y1mceYLMKDU
