@@ -22,7 +22,8 @@ To do this, first clone this repository and then use the get_annotation_file.ipy
 After having an annotation file and the frames in the correct locations, you can run inference after by running this command: 
 
 ```
-python tools/test.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/ap10k/hrnet_w48_ap10k_256x256.py hrnet_w48_ap10k_256x256-d95ab412_20211029.pth
+python tools/test.py configs/animal/2d_kpt_sview_rgb_img/topdown_heatmap/ap10k/hrnet_w48_ap10k_256x256.py 
+hrnet_w48_ap10k_256x256-d95ab412_20211029.pth
 ```
 
 After getting predictions in 'preds.json', open get_prediction_csv.ipynb and run through the notebook. In the coords_full.to_csv command, that is where you output the csv with the coordinates csv and the key point prediction csvs merged into one. This directly feeds into the weak supervision framework.
