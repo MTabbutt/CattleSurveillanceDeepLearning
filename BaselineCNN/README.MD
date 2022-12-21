@@ -5,6 +5,8 @@ This is the code for some basic pre-processing scripts, running of the CNN, test
 
 To create the conda environment look to `CondaEnvInstallNotes_Megan.txt`. 
 
+Data used in the training and testing can be fround here: https://drive.google.com/drive/folders/1PgmFFfr7lXrEoSNp3ED18fUVzQeDWdCA?usp=sharing
+
 ## Codes: 
 
 ### 02 - Dataset exploration: 
