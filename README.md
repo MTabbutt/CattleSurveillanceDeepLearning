@@ -22,5 +22,5 @@ This folder contains the necessary jupyter notebooks to generate the mmpose coor
 
 ## data_preprocessing:
 
-Contains code for preprocessing the data, generating training, validation, test, and unlabeled sets (both superimposed and cropped), and tools for dataset curation
+Contains code for preprocessing the data, and curating and generating training, validation, test, and unlabeled sets (both superimposed and cropped)
 
