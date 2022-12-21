@@ -20,4 +20,7 @@ Found in the weak supervision directory. This code, given all the coordinates of
 
 This folder contains the necessary jupyter notebooks to generate the mmpose coordinates for each cow. 
 
+## data_preprocessing:
+
+Contains code for preprocessing the data, generating training, validation, test, and unlabeled sets (both superimposed and cropped), and tools for dataset curation
 
