@@ -1,6 +1,6 @@
 ## Conda environment
 Requires OpenCV
-`conda create --name cattle`
+`conda install -c conda-forge opencv`
 
 ## Code files
 ### generate_training_set_list.py:
